@@ -1,0 +1,185 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Contact Hamdee{% endblock %}
+
+{% block content %}
+
+
+
+
+        {% if message_name_first %}
+        <section class="parallex parallex-two">
+        <center style="color:white;">
+            <h2 style="font-size: 4em;">Thanks {{ message_name_first }}</h2>
+            <p style="font-size: 1.5em;">We recived your Email and will respond shortly</p>
+        </center>
+        </section>
+        {% else %}
+        <section class="parallex parallex-three">
+            <div class="floats-container">
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-CodePen.png' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-JavaScript-2.png' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-htML.jpg' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-Json.png' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-Front-end.png' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-Django.png' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-Btstrb.png' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-SASS.png' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-Code.png' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-AJAX.png' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-W3C.png' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-GitHub.png' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-Javascript.png' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-Python.png' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-JQuery.png' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-MySQL.png' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-CSS3.jpg' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <img src="{% static 'mewebsite/images/WD-logo/logo-JS.jpg' %}" alt="">
+                </div>
+                <div class="float-item">
+                    <p class="float-text">Code Lover</p>
+                </div>
+                <div class="float-item">
+                    <p class="float-text">Design Passionate</p>
+                </div>
+                <div class="float-item">
+                    <p class="float-text">Enjoy Coding</p>
+                </div>
+                <div class="float-item">
+                    <p class="float-text">Eager to Lerning</p>
+                </div>
+                <div class="float-item">
+                    <p class="float-text">New Knowlege all the Time</p>
+                </div>
+            </div>          
+        </section>
+        {% endif %}
+
+        <section class="contact-options" id="contacts">
+            <div class="column">
+                <input type="checkbox" id="toggler-contact">
+
+                <label for="toggler-contact" class="close-btn-contact">
+                    <img src="{% static 'mewebsite/images/icons/Close.png' %}" alt="">
+                </label>
+                <label for="toggler-contact" class="contact-btn btn-1">
+                    Get In Touch
+                </label>
+                
+
+            
+                <div class="column contact-info">
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><img src="{% static 'mewebsite/images/Social-M-icons/location-icon.png' %}" alt="location"></span>
+                            <span>123456 TechPathRoad <br>
+                            Future City</span>
+                        </li>
+                        <li>
+                            <span><img src="{% static 'mewebsite/images/Social-M-icons/mail-icon.png' %}" alt="e-mail"></span>
+                            <span>techdev@info.com</span>
+                        </li>
+                        <li>
+                            <span><img src="{% static 'mewebsite/images/Social-M-icons/mobil-icon.png' %}" alt="phone"></span>
+                            <span>123-456-7890</span>
+                        </li>
+                    </ul>
+                    <ul class="sci">
+                        <li><a href="#"><img src="{% static 'mewebsite/images/Social-M-icons/facebook-icon.png' %}" alt=""></a></li>
+                        <li><a href="#"><img src="{% static 'mewebsite/images/Social-M-icons/twitter-icon.png' %}" alt=""></a></li>
+                        <li><a href="#"><img src="{% static 'mewebsite/images/Social-M-icons/instagram-icon.png' %}" alt=""></a></li>
+                        <li><a href="#"><img src="{% static 'mewebsite/images/Social-M-icons/pinterest-icon.png' %}" alt=""></a></li>
+                        <li><a href="#"><img src="{% static 'mewebsite/images/Social-M-icons/linkedin-icon.png' %}" alt=""></a></li>
+                    </ul>
+                </div>
+
+
+                <input type="checkbox" id="toggler-message">
+                    
+                <label for="toggler-message" class="close-btn-message">
+                    <img src="{% static 'mewebsite/images/icons/Close.png' %}" alt="">
+                </label>
+                <label for="toggler-message" class="message-btn btn-1">
+                    Send a Message
+                </label>
+
+                <!-- <center>
+                    <h3>Thanks {{ message_name_first }}</h3>
+                    <p>We recived your Email and will respond shortly</p>
+                </center> -->
+
+                <div class="column contact-form">
+                    <h2>Send a Message</h2>
+                    <form action="{% url 'contact' %}" method="POST">
+                        {% csrf_token %}
+                        <div class="input-group short">
+                            <input type="text" name="message-name-first" required>
+                            <span>First name</span>
+                        </div>
+                        <div class="input-group short">
+                            <input type="text" name="message-name-last" required>
+                            <span>Last name</span>
+                        </div>
+                        <div class="input-group short">
+                            <input type="email" name="message-email-sender" required>
+                            <span>Email Address</span>
+                        </div>
+                        <div class="input-group short">
+                            <input type="text" name="mobil-No-sender" required>
+                            <span>Mobil Number</span>
+                        </div>
+                        <div class="input-group long">
+                            <textarea type="text" name="message" required></textarea>
+                            <span>Write your message here</span>
+                        </div>
+                        <button type="submit" value="send" >Send</button>         
+                    </form>
+                </div>
+            </div>
+            <!-- <div class="column">
+                
+
+            </div> -->
+        </section>
+        
+    
+    <!-- </main> -->
+    
+
+{% endblock %}
