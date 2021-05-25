@@ -147,5 +147,5 @@ EMAIL_USE_TLS = False
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-django_heroku.sittings(locals())
+django_heroku.settings(locals())
 

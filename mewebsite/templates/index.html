@@ -5,7 +5,37 @@
 {% block content %}
 
 
+        
+        {% block sectionHero %}
 
+        <section class="parallex parallex-one hero-section" id="home">
+            <div id="particles-js">
+        
+            </div> 
+           
+
+
+            <div class="main-content">
+                <p 
+                data-aos="fade-up"
+                data-aos-duration="800">
+                Welcom to  </p>
+                <h1 class="page-title" 
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200">
+                World of New <br>Adventures</h1>
+                <div class="btn"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="400">
+                    <a href="" class="btn-1">Watch Video</a>
+                    <a href="" class="btn-2">Explore More</a>
+                </div>
+            </div>
+        </section>
+        
+        {% endblock %}
 
 
 
@@ -652,92 +682,7 @@
                     <a href="" class="btn-2">See Website</a>
                 </div>
             </div>
-        </section>
-
-        <section class="contact-options" id="contacts">
-            <div class="column">
-                <input type="checkbox" id="toggler-contact">
-
-                <label for="toggler-contact" class="close-btn-contact">
-                    <img src="{% static 'mewebsite/images/icons/Close.png' %}" alt="">
-                </label>
-                <label for="toggler-contact" class="contact-btn btn-1">
-                    Get In Touch
-                </label>
-                
-
-            
-                <div class="column contact-info">
-                    <h2>Contact Info</h2>
-                    <ul class="info">
-                        <li>
-                            <span><img src="{% static 'mewebsite/images/Social-M-icons/location-icon.png' %}" alt="location"></span>
-                            <span>123456 TechPathRoad <br>
-                            Future City</span>
-                        </li>
-                        <li>
-                            <span><img src="{% static 'mewebsite/images/Social-M-icons/mail-icon.png' %}" alt="e-mail"></span>
-                            <span>techdev@info.com</span>
-                        </li>
-                        <li>
-                            <span><img src="{% static 'mewebsite/images/Social-M-icons/mobil-icon.png' %}" alt="phone"></span>
-                            <span>123-456-7890</span>
-                        </li>
-                    </ul>
-                    <ul class="sci">
-                        <li><a href="#"><img src="{% static 'mewebsite/images/Social-M-icons/facebook-icon.png' %}" alt=""></a></li>
-                        <li><a href="#"><img src="{% static 'mewebsite/images/Social-M-icons/twitter-icon.png' %}" alt=""></a></li>
-                        <li><a href="#"><img src="{% static 'mewebsite/images/Social-M-icons/instagram-icon.png' %}" alt=""></a></li>
-                        <li><a href="#"><img src="{% static 'mewebsite/images/Social-M-icons/pinterest-icon.png' %}" alt=""></a></li>
-                        <li><a href="#"><img src="{% static 'mewebsite/images/Social-M-icons/linkedin-icon.png' %}" alt=""></a></li>
-                    </ul>
-                </div>
-
-
-                <input type="checkbox" id="toggler-message">
-                    
-                <label for="toggler-message" class="close-btn-message">
-                    <img src="{% static 'mewebsite/images/icons/Close.png' %}" alt="">
-                </label>
-                <label for="toggler-message" class="message-btn btn-1">
-                    Send a Message
-                </label>
-
-                
-                <div class="column contact-form">
-                    <h2>Send a Message</h2>
-                    <form action="">
-                        <div class="input-group short">
-                            <input type="text" name="" required>
-                            <span>First name</span>
-                        </div>
-                        <div class="input-group short">
-                            <input type="text" name="" required>
-                            <span>Last name</span>
-                        </div>
-                        <div class="input-group short">
-                            <input type="text" name="" required>
-                            <span>Email Address</span>
-                        </div>
-                        <div class="input-group short">
-                            <input type="text" name="" required>
-                            <span>Mobil Number</span>
-                        </div>
-                        <div class="input-group long">
-                            <textarea type="text-f" name="" required></textarea>
-                            <span>Write your message here</span>
-                        </div>
-                        <button type="submit" value="send" >Send</button>         
-                    </form>
-                </div>
-            </div>
-            <!-- <div class="column">
-                
-
-            </div> -->
-        </section>
-        
-    
+        </section>    
     <!-- </main> -->
     
 

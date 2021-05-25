@@ -358,12 +358,24 @@ input:checked + label.menu-btn :nth-child(3){
     padding: 30vh 0 5vh;
     overflow: hidden;
 }
+.parallex.contactHero{
+    height: 60vh;
+    padding: 0;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
 /* .parallex.parallex-one {
 background-image: url(../images/BG-Developer-11.jpg);
 } */
 .parallex.parallex-two {
     height: 80vh;
     background-image: url(../images/BG-Pxlr3.jpg);
+}
+.parallex.parallex-four {
+    height: 80vh;
+    background-image: url(../images/BG-Prlx-4.jpg);
 }
 .parallex.parallex-three {
     height: 100vh;
@@ -1332,16 +1344,8 @@ hr {
     transition: all 1s ease;
 }
 #toggler-message:checked ~ .contact-form{
-    right: 0%;
+    right: unset;
     transition: all 1s ease;
-}
-.message-btn {
-    background: var(--theme-color-gradiant);
-    border-radius: 5px;
-    padding: 8px 15px;
-    margin: 10px  5px;
-    transition: 0.5s ease-in;
-    z-index: 3;
 }
 #toggler-message:checked ~ .message-btn {
     position: absolute;
@@ -1507,7 +1511,7 @@ footer .column{
     color: var(--theme-color);
     animation: up 2s infinite;
 }
-.asterisk{
+.asterisk{                            /* not used*/
     font-size: 1.2rem;
     color: var(--secondary-font-color);
     margin: 0 1rem;
@@ -1528,7 +1532,7 @@ footer .column{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.footer-content .asterisk{
+.footer-content .asterisk{   /* not used */
     margin: 2rem auto;
 }
 .footer-content-about{
