@@ -48,20 +48,20 @@
 
   // Header 
 
-  let header = document.querySelector('header');
+//   let header = document.querySelector('header');
 
-  window.addEventListener('scroll', function () {
-      let windowPosition = window.scrollY > 300;
-      header.classList.toggle('active', windowPosition)
-  })
+//   window.addEventListener('scroll', function () {
+//       let windowPosition = window.scrollY > 300;
+//       header.classList.toggle('active', windowPosition)
+//   })
 
 
-  let menuR = document.querySelector('.menuR');
+//   let menuR = document.querySelector('.menuR');
 
-  window.addEventListener('scroll', function () {
-      let windowPosition = window.scrollY > 300;
-      menuR.classList.toggle('active', windowPosition)
-  })
+//   window.addEventListener('scroll', function () {
+//       let windowPosition = window.scrollY > 300;
+//       menuR.classList.toggle('active', windowPosition)
+//   })
 
   // let section = document.querySelector('section');
 
@@ -73,18 +73,18 @@
 
 
   
-  // Contact Section
+//   Contact Section
 
-  // let contactInfo = document.querySelector('.contact-info');
-  // let contactForm = document.querySelector('.contact-form');
+  let contactInfo = document.querySelector('.contact-info');
+  let contactForm = document.querySelector('.contact-form');
 
-  // let contactToggler=document.querySelector('#toggler-contact');
-  // let messageToggler=document.querySelector('#toggler-message');
+  let contactToggler=document.querySelector('#toggler-contact');
+  let messageToggler=document.querySelector('#toggler-message');
   
-  // contactToggler.addEventListener("click", function(){
-  //   messageToggler.checked = false;
-  // })
+  contactToggler.addEventListener("click", function(){
+    messageToggler.checked = false;
+  })
 
-  // messageToggler.addEventListener("click", function(){
-  //   contactToggler.checked = false;
-  // })
+  messageToggler.addEventListener("click", function(){
+    contactToggler.checked = false;
+  })

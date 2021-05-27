@@ -87,8 +87,10 @@ section {
 /* /// *** Header Section Styles  *** \\\ */
 .logoimage
 {
-    height:auto;
-    width: 150px;
+    height: 40px;
+    width: auto;
+    border: 2px solid var(--theme-color2);
+    border-radius: 4px;
     margin: 2.5% 2% 0% 2%;
 }
 header {
