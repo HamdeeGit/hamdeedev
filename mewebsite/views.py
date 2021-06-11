@@ -18,7 +18,7 @@ def contact(request):
             message_name_first, # Subject
             message, # Message
             message_email_sender, # From_Email
-            ['hamdeesalih@gmail.com', 'hamdee30@gmail.com'],      # To-Email-Target
+            ['hamdeedf@gmail.com'],      # To-Email-Target
         )
         return render(request, 'contact.html', { 'message_name_first': message_name_first })
     else:
